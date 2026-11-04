@@ -3,13 +3,14 @@
 char *clicalc(int argc, char *argv[])
 {
 	char *arg;
-	char *n1;
-	char *n2;
-	
-	while (*s)
+	int n1;
+	int n2;
+	char operation;
+//todo implement atoi for both nums;
+	while (*arg)
 	{
 		while (*arg < '0' && *arg > 9)
-			s++;
+			arg++;
 		
 	}
 }
